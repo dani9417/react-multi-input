@@ -38,6 +38,13 @@ i.material-icons:hover,
 .button {
   margin: auto 1rem;
   float: right;
+  padding: 0.5rem;
+}
+
+.button:active {
+  background: #2168f3;
+  border-radius: 0.5rem;
+  color: white !important;
 }
 
 @media (min-width: 768px) {
