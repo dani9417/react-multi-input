@@ -1,0 +1,47 @@
+.wrapper {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.title {
+  margin-left: 0.8rem;
+  font-size: 1.5rem;
+}
+
+.input-field {
+  margin: 0.8rem;
+  display: grid;
+  grid-template-columns: 1fr minmax(auto, 2rem);
+  align-items: center;
+  grid-gap: 0.8rem;
+}
+
+.material-icons {
+  text-align: center;
+}
+
+i.material-icons:hover,
+.button:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  background: rgba(173, 216, 230, 0.5);
+  padding: 0.8rem;
+  border-top: 1px solid lightgray;
+  clear: both;
+  overflow: hidden;
+}
+
+.button {
+  margin: auto 1rem;
+  float: right;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    grid-template-columns: 25rem auto;
+  }
+}
